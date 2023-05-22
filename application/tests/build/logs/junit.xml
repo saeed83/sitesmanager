@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="6" assertions="6" errors="0" failures="2" skipped="0" time="0.129317">
+    <testsuite name="CodeIgniter Application Test Suite" tests="6" assertions="6" errors="0" failures="2" skipped="0" time="0.129317">
+      <testsuite name="Welcome_test" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" tests="3" assertions="3" errors="0" failures="1" skipped="0" time="0.069895">
+        <testcase name="test_index" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="13" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.048514">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Welcome_test::test_index&#13;
+Failed asserting that 'Welcome/index is not found' contains "&lt;title&gt;Welcome to CodeIgniter&lt;/title&gt;".
+&#13;
+C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php:16</failure>
+        </testcase>
+        <testcase name="test_method_404" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="19" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.020140"/>
+        <testcase name="test_APPPATH" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="25" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.001241"/>
+      </testsuite>
+      <testsuite name="Welcome_test" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" tests="3" assertions="3" errors="0" failures="1" skipped="0" time="0.059423">
+        <testcase name="test_index" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="13" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.023069">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Welcome_test::test_index&#13;
+Failed asserting that 'Welcome/index is not found' contains "&lt;title&gt;Welcome to CodeIgniter&lt;/title&gt;".
+&#13;
+C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php:16</failure>
+        </testcase>
+        <testcase name="test_method_404" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="19" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.035168"/>
+        <testcase name="test_APPPATH" file="C:\wamp64\www\iblenhardt\application\tests\controllers\Welcome_test.php" line="25" class="Welcome_test" classname="Welcome_test" assertions="1" time="0.001185"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
